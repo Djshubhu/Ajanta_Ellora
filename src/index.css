@@ -1,8 +1,10 @@
 :root {
   /* Colors */
-  --primary-blue: #0A3D62;      /* Deep heritage blue */
+  --primary-blue: #0A3D62;
+  /* Deep heritage blue */
   --primary-blue-hover: #082E4A;
-  --secondary-gold: #F4C430;    /* Royal gold */
+  --secondary-gold: #F4C430;
+  /* Royal gold */
   --secondary-gold-hover: #DDAE2B;
   --bg-light: #F9F9F9;
   --bg-white: #FFFFFF;
@@ -44,7 +46,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--primary-blue);
   font-weight: 600;
@@ -97,7 +104,7 @@ img {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1.5rem;
-  border-radius: 4px;
+  border-radius: 50px;
   font-weight: 500;
   cursor: pointer;
   transition: all var(--transition-normal);
@@ -136,8 +143,15 @@ img {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Modal Overlay */

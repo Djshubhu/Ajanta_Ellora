@@ -67,7 +67,15 @@ const TaxiRental = () => {
 
     return (
         <div className="service-page">
-            <div className="service-hero bg-primary-blue text-white" style={{ backgroundColor: 'var(--primary-blue)', color: 'white', padding: '8rem 0 4rem', textAlign: 'center' }}>
+            <div className="service-hero bg-primary-blue text-white" style={{
+                backgroundColor: 'var(--primary-blue)',
+                color: 'white',
+                padding: '8rem 0 4rem',
+                textAlign: 'center',
+                backgroundImage: 'linear-gradient(rgba(10, 61, 98, 0.8), rgba(10, 61, 98, 0.9)), url("https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070&auto=format&fit=crop")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
                 <div className="container">
                     <h1 className="fade-in-up" style={{ fontSize: '3rem', color: 'var(--secondary-gold)', marginBottom: '1rem' }}>Premium Fleet Rental</h1>
                     <p className="fade-in-up md-text" style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', opacity: 0.9 }}>

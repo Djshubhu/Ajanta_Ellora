@@ -18,7 +18,15 @@ const GuideBooking = () => {
 
     return (
         <div className="service-page">
-            <div className="service-hero" style={{ backgroundColor: 'var(--primary-blue)', color: 'white', padding: '8rem 0 4rem', textAlign: 'center' }}>
+            <div className="service-hero" style={{
+                backgroundColor: 'var(--primary-blue)',
+                color: 'white',
+                padding: '8rem 0 4rem',
+                textAlign: 'center',
+                backgroundImage: 'linear-gradient(rgba(10, 61, 98, 0.85), rgba(10, 61, 98, 0.95)), url("https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
                 <div className="container">
                     <h1 className="fade-in-up" style={{ fontSize: '3rem', color: 'var(--secondary-gold)', marginBottom: '1rem' }}>Expert Heritage Mentors</h1>
                     <p className="fade-in-up" style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', opacity: 0.9 }}>

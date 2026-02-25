@@ -9,7 +9,13 @@ const About = () => {
 
     return (
         <div className="about-page">
-            <div className="about-hero">
+            <div className="about-hero" style={{
+                backgroundImage: 'linear-gradient(rgba(244, 244, 244, 0.9), rgba(244, 244, 244, 0.95)), url("https://images.unsplash.com/photo-1598389366657-61c164d1f211?q=80&w=2070&auto=format&fit=crop")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                padding: '8rem 0 4rem',
+                borderBottom: '1px solid var(--border-color)'
+            }}>
                 <div className="container text-center">
                     <h1 className="fade-in-up section-title" style={{ color: 'var(--primary-blue)', fontSize: '3.5rem', marginBottom: '1rem' }}>About The Eternal Heritage Trail</h1>
                     <p className="fade-in-up section-subtitle mx-auto" style={{ maxWidth: '800px', fontSize: '1.2rem' }}>

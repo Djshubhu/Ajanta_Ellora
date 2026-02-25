@@ -39,7 +39,15 @@ Message: ${formData.message}`;
 
     return (
         <div className="contact-page">
-            <div className="service-hero" style={{ backgroundColor: 'var(--primary-blue)', color: 'white', padding: '8rem 0 4rem', textAlign: 'center' }}>
+            <div className="service-hero" style={{
+                backgroundColor: 'var(--primary-blue)',
+                color: 'white',
+                padding: '8rem 0 4rem',
+                textAlign: 'center',
+                backgroundImage: 'linear-gradient(rgba(10, 61, 98, 0.8), rgba(10, 61, 98, 0.9)), url("https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=2070&auto=format&fit=crop")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
                 <div className="container">
                     <h1 className="fade-in-up" style={{ fontSize: '3rem', color: 'var(--secondary-gold)', marginBottom: '1rem' }}>Get in Touch</h1>
                     <p className="fade-in-up" style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', opacity: 0.9 }}>

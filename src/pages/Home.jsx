@@ -35,6 +35,27 @@ const Home = () => {
 
             <TourOptions />
 
+            <section className="home-services section-padding text-center">
+                <div className="container">
+                    <h2 className="section-title mb-6" style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '3rem' }}>Our Heritage Services</h2>
+                    <div className="services-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '900px', margin: '0 auto' }}>
+
+                        <div className="service-card" style={{ padding: '2.5rem', backgroundColor: 'var(--bg-white)', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }}>
+                            <h3 style={{ fontSize: '1.5rem', color: 'var(--primary-blue)', marginBottom: '1rem' }}>Premium Fleet Rental</h3>
+                            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>Travel the Deccan in absolute comfort with our chauffeur-driven luxury sedans and SUVs.</p>
+                            <a href="/taxi-rental" className="btn btn-outline" style={{ display: 'inline-block', border: '2px solid var(--primary-blue)', color: 'var(--primary-blue)', padding: '0.5rem 1.5rem', borderRadius: '50px', textDecoration: 'none', fontWeight: '500' }}>Explore Fleet</a>
+                        </div>
+
+                        <div className="service-card" style={{ padding: '2.5rem', backgroundColor: 'var(--bg-white)', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }}>
+                            <h3 style={{ fontSize: '1.5rem', color: 'var(--primary-blue)', marginBottom: '1rem' }}>Heritage Mentors</h3>
+                            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>Book our ASI-approved, deeply knowledgeable cultural mentors in multiple languages.</p>
+                            <a href="/guide-booking" className="btn btn-outline" style={{ display: 'inline-block', border: '2px solid var(--primary-blue)', color: 'var(--primary-blue)', padding: '0.5rem 1.5rem', borderRadius: '50px', textDecoration: 'none', fontWeight: '500' }}>Book a Guide</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="why-choose-us section-padding" style={{ backgroundColor: 'var(--primary-blue)', color: 'var(--bg-white)', padding: '5rem 0' }}>
                 <div className="container text-center">
                     <h2 style={{ color: 'var(--secondary-gold)', fontSize: '2.5rem', marginBottom: '3rem' }}>The Premium Experience</h2>

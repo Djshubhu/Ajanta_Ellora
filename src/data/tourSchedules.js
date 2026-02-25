@@ -1,101 +1,101 @@
 export const tourSchedules = {
     'express': {
-        overview: 'A focused, full-day excursion dedicated to unraveling the mysteries of either the Ajanta or Ellora caves. Perfect for travelers with limited time who still want a premium, guided experience of Maharashtra\'s most famous UNESCO sites.',
+        overview: 'A focused, high-impact heritage experience that captures the essence of the Deccan in a single day. This itinerary combines a curated highlights visit of Ajanta with a concentrated exploration of Ellora\'s monumental architecture, offering cultural depth within a limited timeframe.',
         days: [
             {
                 day: 1,
-                title: 'The Monolithic Marvels',
-                description: 'Morning pickup from your preferred location in Chhatrapati Sambhajinagar. Proceed directly to your chosen destination (Ajanta or Ellora). Enjoy a comprehensive 4-5 hour guided tour exploring the major caves, understanding the architectural nuances and historical context. Stop for a premium lunch before returning to the city by evening.'
+                title: 'Ajanta Highlights & Ellora (From Monks to Monoliths)',
+                description: 'Morning: Early departure for Ajanta with a curated highlights visit covering select caves known for murals, sculptures, and chaitya halls, offering insight into Buddhist art and monastic life without a full-day exploration. Afternoon: Lunch en route followed by a guided visit to Ellora Caves, including the iconic Kailasa Temple and select surrounding caves representing Buddhist, Hindu, and Jain traditions. Return: Evening return to Chhatrapati Sambhajinagar.'
             }
         ]
     },
     'compact': {
-        overview: 'Experience the essential highlights of the Deccan in a crisp, overnight journey. This tour efficiently covers both the Ajanta and Ellora UNESCO World Heritage sites, offering a deep dive into ancient Buddhist, Hindu, and Jain art and architecture.',
+        overview: 'A compact yet immersive journey through the Deccan\'s most celebrated heritage sites. This itinerary is designed for travellers with limited time, combining the artistic depth of Ajanta with the architectural grandeur of Ellora and the key highlights of Chhatrapati Sambhajinagar, without rushing the experience.',
         days: [
             {
                 day: 1,
-                title: 'Ajanta Expedition',
-                description: 'Morning pickup and beautiful drive to the Ajanta Caves (approx 2.5 hours). Spend the day exploring the 30 rock-cut Buddhist cave monuments dating from the 2nd century BCE. Marvel at the preserved murals and sculptures. Return to Chhatrapati Sambhajinagar for check-in at a premium hotel. Evening at leisure.'
+                title: 'Ajanta Caves (The World of the Monks)',
+                description: 'Visit Ajanta Caves, a UNESCO World Heritage Site famed for its murals, sculptures, and monastic caves dating from the 2nd century BCE to the 6th century CE. Guided exploration of selected caves followed by lunch near the site and return to the city.'
             },
             {
                 day: 2,
-                title: 'Ellora & City Heritage',
-                description: 'After breakfast, drive to the Ellora Caves. Witness the breathtaking Kailasa Temple (Cave 16), the largest monolithic structure in the world. After lunch, visit the Bibi Ka Maqbara (Taj of the Deccan). Tour concludes with a drop-off at your preferred location.'
+                title: 'Ellora Caves & City Highlights',
+                description: 'Explore Ellora Caves, including the iconic Kailasa Temple and select Buddhist and Jain caves. After lunch, visit Bibi-ka-Maqbara and experience the historic character of Chhatrapati Sambhajinagar. Tour concludes in the afternoon.'
             }
         ]
     },
     'classic': {
-        overview: 'Our signature and most popular itinerary. This 3-day journey allows you to experience the region\'s history at a relaxed pace, perfectly balancing the ancient cave complexes with medieval forts and Mughal architecture.',
+        overview: 'A thoughtfully paced cultural journey through the heart of the Deccan, exploring the rock-cut masterpieces of Ajanta and Ellora and the historic city of Chhatrapati Sambhajinagar. Designed for comfort and depth, this tour balances UNESCO heritage sites with relaxed travel and curated experiences.',
         days: [
             {
                 day: 1,
-                title: 'Arrival & City Heritage',
-                description: 'Pickup on arrival. Check-in to your premium hotel. Post lunch, explore the local heritage including the Bibi Ka Maqbara, Panchakki (water mill), and the imposing Aurangabad Caves. Enjoy a traditional dinner.'
+                title: 'Ajanta Caves (The World of the Monks)',
+                description: 'Early departure for Ajanta, a UNESCO World Heritage Site renowned for its Buddhist murals and monastic caves dating from the 2nd century BCE to the 6th century CE. Guided exploration of selected caves, followed by lunch near the site and a relaxed return to the city.'
             },
             {
                 day: 2,
-                title: 'The Art of Ajanta',
-                description: 'Full day excursion to the Ajanta Caves. Our expert guide will walk you through the evolution of Buddhist art across centuries. Enjoy a specially arranged lunch near the caves. Return to hotel by late afternoon.'
+                title: 'Ellora Caves & Daulatabad Fort',
+                description: 'Visit Ellora\'s iconic Kailasa Temple and selected Buddhist and Jain caves, showcasing the evolution of faith and architecture in the Deccan. After lunch, explore the historic Daulatabad Fort, known for its strategic design and panoramic views.'
             },
             {
                 day: 3,
-                title: 'Fortresses & Monoliths',
-                description: 'Morning visit to the formidable Daulatabad Fort, climbing to the top for panoramic views. Proceed to Ellora Caves to explore the Hindu, Buddhist, and Jain sanctuaries. Tour concludes with drop-off.'
+                title: 'Chhatrapati Sambhajinagar City',
+                description: 'A gentle city exploration including Bibi-ka-Maqbara and optional visits to the Aurangabad Caves and local textile traditions. Tour concludes after lunch.'
             }
         ]
     },
     'nature': {
-        overview: 'A unique blend of human architectural mastery and geological wonder. This tour takes you beyond the caves to witness the mystical Lonar Crater, the only known hyper-velocity impact crater in basaltic rock anywhere on Earth.',
+        overview: 'An extended and comfortably paced journey through the cultural and natural heritage of the Deccan. This itinerary combines the UNESCO World Heritage Sites of Ajanta and Ellora with the historic city of Chhatrapati Sambhajinagar and the unique geological wonder of Lonar Crater Lake.',
         days: [
             {
                 day: 1,
-                title: 'Arrival & Ellora',
-                description: 'Pickup and proceed directly to Ellora Caves. Spend the day exploring the monolithic wonders. Late afternoon check-in to hotel in Chhatrapati Sambhajinagar.'
+                title: 'Ajanta Caves (The World of the Monks)',
+                description: 'A scenic drive through northern Maharashtra leads to Ajanta Caves. Dating from the 2nd century BCE to the 6th century CE, Ajanta represents one of the finest surviving traditions of ancient Buddhist art. A guided exploration focuses on a curated selection of caves.'
             },
             {
                 day: 2,
-                title: 'The Ajanta Journey',
-                description: 'Full day excursion to the Ajanta Caves to witness the ancient murals. Return to hotel.'
+                title: 'Ellora Caves & Daulatabad Fort',
+                description: 'Ellora Caves illustrate the convergence of Buddhist, Hindu, and Jain traditions. The visit centres on the Kailasa Temple and select surrounding caves. After lunch, the tour continues to Daulatabad Fort, a 14th-century hill fortress. Exploration is partial and paced.'
             },
             {
                 day: 3,
-                title: 'The Crater Expedition',
-                description: 'Early morning departure for Lonar Crater Lake (approx 3 hours). Accompanied by a local guide, hike down to the crater lake, exploring the unique flora, fauna, and ancient temples surrounding it. Return to hotel by evening.'
+                title: 'Chhatrapati Sambhajinagar City',
+                description: 'A relaxed city day focused on Mughal and Deccan-era heritage. The morning visit is to Bibi-ka-Maqbara, followed by time to explore local traditions and crafts like Himroo and Paithani weaving.'
             },
             {
                 day: 4,
-                title: 'City Highlights & Departure',
-                description: 'Morning visit to Bibi Ka Maqbara and a local Himroo/Paithani weaving center to understand the region\'s textile heritage. Drop-off.'
+                title: 'Lonar Crater Lake',
+                description: 'Lonar Crater Lake is one of the world\'s few meteorite-impact craters formed in basalt rock. The visit includes viewpoints of the crater lake and surrounding temples dating from different periods. Return to city and Tour Concludes.'
             }
         ]
     },
     'complete': {
-        overview: 'The ultimate, uncompromising Deccan experience. This comprehensive 5-day itinerary covers every major historical, natural, and cultural landmark in the region at a luxurious, unhurried pace.',
+        overview: 'The most comprehensive version of The Eternal Heritage Trail, designed for travellers who wish to experience the Deccan in depth. This itinerary blends UNESCO World Heritage Sites, natural wonders, and living cultural traditions at a relaxed pace.',
         days: [
             {
                 day: 1,
-                title: 'Welcome to the Deccan',
-                description: 'Arrival, transfer to premium hotel. Relax and acclimatize. Evening visit to Bibi Ka Maqbara for sunset views, followed by a welcome dinner featuring authentic local cuisine.'
+                title: 'Arrival & City Introduction',
+                description: 'Arrival at Chhatrapati Sambhajinagar and hotel check-in. The day is kept intentionally light to allow travellers to acclimatise. A gentle introduction to the city\'s heritage sets the tone for the days ahead including Bibi-ka-Maqbara.'
             },
             {
                 day: 2,
-                title: 'The Ajanta Masterpieces',
-                description: 'Full day guided exploration of the Ajanta Caves. Return to city.'
+                title: 'Ajanta Caves (The World of the Monks)',
+                description: 'A scenic drive leads to Ajanta Caves. A guided, unhurried exploration focuses on selected caves known for murals, sculptures, and monastic spaces. Lunch is arranged near the site before a relaxed return to the city.'
             },
             {
                 day: 3,
-                title: 'Ellora & Daulatabad',
-                description: 'Morning visit to Daulatabad Fort. Afternoon dedicated entirely to the massive Ellora Cave complex. Optional evening visit to Grishneshwar Temple (one of the 12 Jyotirlingas).'
+                title: 'Ellora Caves & Daulatabad Fort',
+                description: 'The visit centres on the monumental Kailasa Temple and select surrounding caves at Ellora. After lunch near Ellora, the journey continues to Daulatabad Fort. The ascent is optional and paced.'
             },
             {
                 day: 4,
-                title: 'Lonar Geological Wonder',
-                description: 'Full day excursion to Lonar Crater. Explore the meteor impact site, the alkaline lake, and surrounding ancient ruins.'
+                title: 'Lonar Crater Lake',
+                description: 'The journey offers a shift from carved stone to natural wonder. The visit includes viewpoints of the crater lake and surrounding ancient temples. Lunch is arranged near Lonar before the return drive.'
             },
             {
                 day: 5,
-                title: 'Culture, Craft & Departure',
-                description: 'Visit a traditional Paithani weaving center. Last-minute souvenir shopping. Transfer to airport/station for onward journey.'
+                title: 'City Heritage & Departure',
+                description: 'The final day focuses on the living heritage of the city, with time to explore traditional crafts like Himroo and Paithani weaving at an easy pace before departure.'
             }
         ]
     }
