@@ -1,0 +1,137 @@
+.tour-options-section {
+    background-color: var(--bg-light);
+}
+
+.section-header {
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 1rem;
+    color: var(--primary-blue);
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+.tour-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.tour-card {
+    background-color: var(--bg-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+.tour-card.popular {
+    border: 2px solid var(--secondary-gold);
+}
+
+.popular-badge {
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    background-color: var(--secondary-gold);
+    color: var(--primary-blue);
+    padding: 0.5rem 3rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: rotate(45deg);
+    z-index: 10;
+    box-shadow: var(--shadow-sm);
+}
+
+.tour-image-wrapper {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+
+.tour-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+
+.tour-card:hover .tour-image {
+    transform: scale(1.1);
+}
+
+.tour-duration-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-blue);
+    color: var(--bg-white);
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-top-right-radius: 12px;
+}
+
+.tour-card-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tour-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-blue);
+}
+
+.tour-desc {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.tour-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.tour-highlights li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+}
+
+.highlight-icon {
+    color: var(--secondary-gold);
+    flex-shrink: 0;
+    margin-top: 2px;
+}

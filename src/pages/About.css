@@ -1,0 +1,136 @@
+.about-page {
+    background-color: var(--bg-light);
+    min-height: 100vh;
+}
+
+.about-hero {
+    padding: 8rem 0 4rem;
+    background-color: var(--bg-white);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mentor-profile {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    background-color: var(--bg-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    margin-top: 2rem;
+}
+
+.mentor-sidebar {
+    background-color: var(--primary-blue);
+    color: var(--bg-white);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mentor-image-wrapper {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--secondary-gold);
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.mentor-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mentor-credentials {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1rem;
+}
+
+.credential-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.text-secondary-gold {
+    color: var(--secondary-gold);
+}
+
+.mentor-content {
+    padding: 4rem 4rem 4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor-name {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.mentor-title {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--secondary-gold);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.mentor-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mentor-bio p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.vision-box {
+    background-color: rgba(244, 196, 48, 0.1);
+    border-left: 4px solid var(--secondary-gold);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.vision-title {
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+}
+
+.vision-box p {
+    font-style: italic;
+    color: var(--text-dark);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+    .mentor-profile {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .mentor-sidebar {
+        padding: 3rem 2rem;
+        align-items: center;
+    }
+
+    .mentor-content {
+        padding: 3rem 2rem;
+    }
+}

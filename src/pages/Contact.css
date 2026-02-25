@@ -1,0 +1,134 @@
+.contact-page {
+    background-color: var(--bg-light);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    margin-top: -4rem;
+    /* Overlap hero section */
+    position: relative;
+    z-index: 10;
+    margin-bottom: 4rem;
+}
+
+.contact-info-panel {
+    background-color: var(--primary-blue);
+    color: var(--bg-white);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+}
+
+.info-title {
+    font-size: 1.8rem;
+    color: var(--secondary-gold);
+    margin-bottom: 1rem;
+}
+
+.info-desc {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.info-icon {
+    background-color: rgba(244, 196, 48, 0.1);
+    color: var(--secondary-gold);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.info-content h4 {
+    color: var(--bg-white);
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.info-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.info-content a {
+    transition: color 0.2s;
+}
+
+.info-content a:hover {
+    color: var(--secondary-gold);
+}
+
+.info-sub {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--secondary-gold);
+    margin-top: 0.25rem;
+}
+
+.contact-form-panel {
+    background-color: var(--bg-white);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+}
+
+.form-title {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.submit-btn-large {
+    padding: 1.25rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    background-color: var(--bg-white);
+    padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contact-info-panel,
+    .contact-form-panel {
+        padding: 2rem;
+    }
+}
